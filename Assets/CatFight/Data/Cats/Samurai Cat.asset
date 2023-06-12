@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e045fa68c890b574798dd77c121a71e7, type: 3}
+  m_Name: Samurai Cat
+  m_EditorClassIdentifier: 
+  id: Samurai
+  characterName: Samurai
+  health: 200
+  startingAttackBonus: 0
+  startingDefence: 20
+  characterSprite: {fileID: 21300000, guid: 8fec0e75cbd5535439c0767df5559153, type: 3}
+  cardList:
+  - {fileID: 11400000, guid: 0e4e04f685dea8d4cabf883926df1be0, type: 2}
+  - {fileID: 11400000, guid: 0e4e04f685dea8d4cabf883926df1be0, type: 2}
+  - {fileID: 11400000, guid: 0e4e04f685dea8d4cabf883926df1be0, type: 2}
+  - {fileID: 11400000, guid: 4e705b61f63210a4a831dfa53d5db9dc, type: 2}
+  - {fileID: 11400000, guid: 4e705b61f63210a4a831dfa53d5db9dc, type: 2}
+  - {fileID: 11400000, guid: 069b2c246714a7c4a92426487fb401e5, type: 2}
+  - {fileID: 11400000, guid: cf69bb4645d72434e80f0c6deb27357f, type: 2}
+  - {fileID: 11400000, guid: cf69bb4645d72434e80f0c6deb27357f, type: 2}
+  - {fileID: 11400000, guid: cf69bb4645d72434e80f0c6deb27357f, type: 2}
+  - {fileID: 11400000, guid: 76609263211905b4aa15077b7697c80b, type: 2}
+  - {fileID: 11400000, guid: 76609263211905b4aa15077b7697c80b, type: 2}
+  - {fileID: 11400000, guid: 76609263211905b4aa15077b7697c80b, type: 2}
+  - {fileID: 11400000, guid: f84d43441e3b6f24a9743a6e6bed9ae1, type: 2}
+  - {fileID: 11400000, guid: 572377de4aa40b44ab1a64cd637a490a, type: 2}
+  characterType: 1
+  characterPrefab: {fileID: 1407840670877347004, guid: 7920ee884a7dfe14489728b96460183b, type: 3}
+  positionOnBattleground: 1
+  isDefaultCharacter: 0

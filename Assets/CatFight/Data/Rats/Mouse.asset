@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0139d0cb3f4c9d419d7feac96e81e60, type: 3}
+  m_Name: Mouse
+  m_EditorClassIdentifier: 
+  id: rat_1
+  characterName: Mouse
+  health: 50
+  startingAttackBonus: 0
+  startingDefence: 0
+  characterSprite: {fileID: 21300002, guid: 7ab74e659e1f0a34d9cfec21c478fc12, type: 3}
+  cardList:
+  - {fileID: 11400000, guid: c7c7001f1981bcb43b2ce7b2f26a734f, type: 2}
+  - {fileID: 11400000, guid: 16598b150325f744c85efb7aa075ce06, type: 2}
+  characterType: 2
+  characterPrefab: {fileID: 2942740175487980255, guid: 0d7d0c9df746a5a48bdc978b336e401d, type: 3}
+  positionOnBattleground: 1
+  isDefaultCharacter: 0

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0139d0cb3f4c9d419d7feac96e81e60, type: 3}
+  m_Name: Rat
+  m_EditorClassIdentifier: 
+  id: rat_1
+  characterName: Rat
+  health: 200
+  startingAttackBonus: 0
+  startingDefence: 0
+  characterSprite: {fileID: 21300002, guid: 7ab74e659e1f0a34d9cfec21c478fc12, type: 3}
+  cardList:
+  - {fileID: 11400000, guid: 486cfb4d95fceca40b7f4642ef53da8a, type: 2}
+  - {fileID: 11400000, guid: 48f1eec458d659d488664290b9459849, type: 2}
+  - {fileID: 11400000, guid: 1916ff20a7af4f142bcdeeddad8ec5b3, type: 2}
+  - {fileID: 11400000, guid: 7bec045f8071f6c49bedcf690d46a469, type: 2}
+  characterType: 2
+  characterPrefab: {fileID: 699468516604284839, guid: bcccbf7584eab034f824bcdf779626bf, type: 3}
+  positionOnBattleground: 1
+  isDefaultCharacter: 0

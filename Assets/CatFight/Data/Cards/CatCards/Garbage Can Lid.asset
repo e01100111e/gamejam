@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddca6dd2f6d497f4188dc5cc0a2d824d, type: 3}
+  m_Name: Garbage Can Lid
+  m_EditorClassIdentifier: 
+  id: Card_5
+  cardName: Carbage Can Lid
+  manaCost: 6
+  cardSprite: {fileID: 21300000, guid: 849ad1c68c65870479bac60a39bf8942, type: 3}
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  description: Defence increase by 15
+  cardActionList:
+  - {fileID: 11400000, guid: 26db587dab18d674ea589ffca91c37b4, type: 2}
+  isEnemyCard: 0
+  overrides:
+  - overrideActionTarget: 1
+    overrideTurnCount: 0
+    overrideActionValue: 15
+    overriddenActionIndex: 0

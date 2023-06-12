@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb492377af0f9b469dc9a6b23831374, type: 3}
+  m_Name: A3W1
+  m_EditorClassIdentifier: 
+  m_Level: 3
+  enemies:
+  - {fileID: 11400000, guid: 040606b987544944c95ab02327c6ae03, type: 2}
+  - {fileID: 11400000, guid: 251ddfd4cd66662428436291b01fa6cb, type: 2}
+  - {fileID: 11400000, guid: 034efb5016c454943a4adead3a554652, type: 2}
+  - {fileID: 11400000, guid: ccfac17bfba841149a8ce3ca37b13c7b, type: 2}
+  background: {fileID: 21300000, guid: 30b0cf4d7360c3d478e566cd80a20d4f, type: 3}
+  levelName: 
+  levelDetails: Front
+  treatAward: 10

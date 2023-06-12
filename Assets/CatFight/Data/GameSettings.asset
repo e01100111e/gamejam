@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b5a76cca76ef94589a4599dc9a4ccd, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  allCats:
+  - {fileID: 11400000, guid: c61eb2bcfaf9dc741be9bc6580470d5c, type: 2}
+  - {fileID: 11400000, guid: fc0697b5d1d64a94c811cb4623db7ae3, type: 2}
+  - {fileID: 11400000, guid: 53c120350a25f354d905f4ba7d4601a6, type: 2}
+  - {fileID: 11400000, guid: 2164c47a71c9ad949bbb6e3c37c5d558, type: 2}
+  allRats: []
+  allCards:
+  - {fileID: 11400000, guid: 0e4e04f685dea8d4cabf883926df1be0, type: 2}
+  - {fileID: 11400000, guid: 4e705b61f63210a4a831dfa53d5db9dc, type: 2}
+  - {fileID: 11400000, guid: be1940a7b3f0b514493ab2572f93e35f, type: 2}
+  - {fileID: 11400000, guid: 069b2c246714a7c4a92426487fb401e5, type: 2}
+  - {fileID: 11400000, guid: 659d10c1b335e5e4685250e67fd952fc, type: 2}
+  - {fileID: 11400000, guid: cf69bb4645d72434e80f0c6deb27357f, type: 2}
+  - {fileID: 11400000, guid: 76609263211905b4aa15077b7697c80b, type: 2}
+  - {fileID: 11400000, guid: 938d485b725e1374bab8db335422cd43, type: 2}
+  - {fileID: 11400000, guid: e57c6a2146d7a4441b99cdb8ed05d651, type: 2}
+  - {fileID: 11400000, guid: 22258ff2a9d68a746bf99d605028133b, type: 2}
+  - {fileID: 11400000, guid: 774dcebb5f9d0a04fa677ccb9cfb450a, type: 2}
+  - {fileID: 11400000, guid: 4ac57275c39af244db7632a1f578918c, type: 2}
+  - {fileID: 11400000, guid: cc444a746a3207746be28e84b6d184a9, type: 2}
+  - {fileID: 11400000, guid: f84d43441e3b6f24a9743a6e6bed9ae1, type: 2}
+  - {fileID: 11400000, guid: df46039f64956fa4a886df6eecf8b4d6, type: 2}
+  - {fileID: 11400000, guid: 572377de4aa40b44ab1a64cd637a490a, type: 2}
+  - {fileID: 11400000, guid: 1da3e9db0ac6459408cb68988b6930be, type: 2}
+  - {fileID: 11400000, guid: 99b0fe0b882cdd341b15b7665202b8b7, type: 2}
+  - {fileID: 11400000, guid: e108df691e5f20945bef74d8fe1b17bb, type: 2}
+  - {fileID: 11400000, guid: cf51418f99f3a6a44937fcbe3cbe60f8, type: 2}
+  allActions: []
+  allLevels:
+  - {fileID: 11400000, guid: 2759d7ff8f892a1479a71da6eede0b91, type: 2}
+  allAdventures:
+  - {fileID: 11400000, guid: 9bbdc327bcbd89640834e573b0462cde, type: 2}
+  - {fileID: 11400000, guid: cc91edfe9d755194889ee5c077d93b38, type: 2}
+  - {fileID: 11400000, guid: 30172d1b087445c41b7ed91da8ca4b76, type: 2}
+  maxCardCountInHand: 5
+  maxPartyCharacterCount: 4
+  cardResizeValue: 1.2
+  defaultHealth: 3
+  cardPrefab: {fileID: 9175127089471178110, guid: d4f77219bae43ba4b91a2e1dbe4777a9, type: 3}
+  healthPrefab: {fileID: 716310394680358879, guid: 9af4301868863ec42aa85188b1de5310, type: 3}
+  activeEffectUIPrefab: {fileID: 8893470249039605921, guid: 7d6b1adf56129bb439178750607319c1, type: 3}
+  activeReactionUIPrefab: {fileID: 7699675732502096318, guid: ddc72cb65190a7d40b86d48dc6d3579a, type: 3}
+  characterMenuUIPrefab: {fileID: 7928399234076540695, guid: 931b82a344b702249b501f797ed3896c, type: 3}
+  startingMana: 4
+  defaultManaPerTurn: 1
+  maxManaPerBattle: 10
